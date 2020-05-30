@@ -6,7 +6,7 @@ identify walloutlet with RGB-D camera and iRobot
 - Jetson TX 2
 - Inter RealSense D435
 
-## Prerequiste
+## Prerequisite
 - [Flush Linux to Jetson TX 2 (Linux-4.9.140-tegra)](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html) 
 - [Install ROS (melodic) on Jetson](http://wiki.ros.org/melodic/Installation/Ubuntu)
 - [Install RealSense SDK 2.0 on Jetson](https://www.jetsonhacks.com/2018/04/25/now-cuda-intel-realsense-d400-cameras-nvidia-jetson-tx/)
