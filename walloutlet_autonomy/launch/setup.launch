@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <!--iRobot-->
+  <include file="$(find ca_driver)/launch/create_2.launch"/>
+  <!--rs camera-->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="align_depth" value="true"/>
+  </include>
+
+</launch>
