@@ -17,7 +17,7 @@
 - `opencv_createsamples -info info/info.lst -num [number of samples] -w 20 -h 20 -vec positives.vec`
   A vector file will be created
 # STEP 3: Training
-- opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20
+- `opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20`
   A general rule for ration of pos:neg images is 2:1, amd 10-20 at least stages.
   A cascade file (xml) will be generated which can be used for detection
 # STEP 4: Play detection
